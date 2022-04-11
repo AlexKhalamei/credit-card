@@ -2,10 +2,6 @@
 $userPhone = $_POST['userPhone'];
 $userEmail = $_POST['userEmail'];
 
-$servername = 'groshi24.mysql.ukraine.com.ua';
-$database = 'groshi24_card';
-$username = "groshi24_card";
-$password = "50zd)JO5c*";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
